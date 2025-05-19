@@ -5,13 +5,13 @@ export default function ProfileSection() {
     <section id="about" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-serif font-bold text-center mb-16 text-gray-800">
-          <span className="border-b-4 border-[#c25b5b] pb-2">
+          <span className="inline-block border-b-4 border-[#c25b5b] pb-2">
             Adv Subhash Kr Jha & Associates
           </span>
         </h2>
 
         <div className="flex flex-col md:flex-row items-center gap-12">
-          <div className="md:w-1/2">
+          <div className="w-full md:w-1/2">
             <div className="relative h-[500px] w-full rounded-lg overflow-hidden shadow-xl">
               <Image
                 src="/advSubhashKrJha.jpg"
@@ -22,7 +22,7 @@ export default function ProfileSection() {
             </div>
           </div>
 
-          <div className="md:w-1/2">
+          <div className=" w-full md:w-1/2">
             <h3 className="text-2xl md:text-3xl font-serif font-bold text-[#c25b5b] mb-4">
               Adv Subhash Kr Jha
             </h3>
